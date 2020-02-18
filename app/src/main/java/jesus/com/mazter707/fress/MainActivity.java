@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 if (menuItem.getItemId()== R.id.menu_sales){
 
                 }
-                
+
                 return true;
             }
         });
