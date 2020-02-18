@@ -9,13 +9,16 @@
     tools:context=".MainActivity">
 
     <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="#242424"
-        app:itemBackground="#ffffff">
+        app:itemBackground="#ffffff"
+        app:itemTextColor="#ffffff"
+        app:itemIconTint="#ffffff"
+        app:menu="@menu/main_menu">
 
     </android.support.design.widget.BottomNavigationView>
-
 
 </android.support.design.widget.CoordinatorLayout>
