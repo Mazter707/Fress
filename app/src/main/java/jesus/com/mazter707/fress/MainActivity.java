@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        showSelectedFragment(new InventoryFragment());
+
         mBbottomNavigation = (BottomNavigationView) findViewById(R.id.bottomNavigation);
 
         mBbottomNavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
