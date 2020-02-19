@@ -8,15 +8,22 @@
     android:fitsSystemWindows="true"
     tools:context=".MainActivity">
 
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp">
+
+    </FrameLayout>
+
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="#242424"
-        app:itemBackground="#ffffff"
-        app:itemTextColor="#ffffff"
-        app:itemIconTint="#ffffff"
+        app:itemBackground="@color/colorBlack"
+        app:itemTextColor="@color/colorWhite"
+        app:itemIconTint="@color/colorWhite"
         app:menu="@menu/main_menu">
 
     </android.support.design.widget.BottomNavigationView>
