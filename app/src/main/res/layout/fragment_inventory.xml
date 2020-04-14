@@ -12,4 +12,5 @@
         android:text="INVENTARIO FRAGMENT"
         android:gravity="center"/>
 
+
 </FrameLayout>

@@ -13,7 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="60dp">
-
     </FrameLayout>
 
     <android.support.design.widget.BottomNavigationView
@@ -25,7 +24,6 @@
         app:itemTextColor="@color/colorWhite"
         app:itemIconTint="@color/colorWhite"
         app:menu="@menu/main_menu">
-
     </android.support.design.widget.BottomNavigationView>
 
 </android.support.design.widget.CoordinatorLayout>
