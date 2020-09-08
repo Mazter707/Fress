@@ -12,6 +12,7 @@ import jesus.com.mazter707.fress.fragments.CreditFragment;
 import jesus.com.mazter707.fress.fragments.InventoryFragment;
 import jesus.com.mazter707.fress.fragments.SalesFragment;
 
+
 public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView mBbottomNavigation;
