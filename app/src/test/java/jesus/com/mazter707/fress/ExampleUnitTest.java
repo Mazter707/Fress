@@ -1,6 +1,6 @@
 package jesus.com.mazter707.fress;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.Assert.*;
 
